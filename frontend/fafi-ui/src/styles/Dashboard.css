@@ -1,0 +1,35 @@
+/* src/styles/Dashboard.css */
+
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .dashboard-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .dashboard-grid .dashboard-card {
+    flex: 1 1 calc(50% - 1.5rem);
+    min-width: 300px;
+    background-color: var(--bg-card);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+  }
+  
+  .dashboard-subgrid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-subgrid .dashboard-card {
+    flex: 1 1 calc(33.333% - 1rem);
+    min-width: 280px;
+  }
+  

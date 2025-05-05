@@ -1,0 +1,21 @@
+# 🔐 Prevent secrets from being committed
+.env
+
+# 🗃️ Node dependencies
+node_modules/
+
+# 📄 Logs
+logs/
+cli/logs/
+*.log
+
+# 📤 OS/System files
+.DS_Store
+
+# 🧪 Backup/exports
+*.xlsx
+*.pdf
+backup.json
+
+# 💥 VS Code
+.vscode/

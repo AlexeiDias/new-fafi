@@ -1,0 +1,36 @@
+.calendar-container {
+    height: 500px;
+    background-color: var(--bg-card);
+    color: var(--text-light);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .rbc-calendar {
+    background-color: transparent;
+    color: var(--text-light);
+  }
+  
+  .rbc-toolbar button {
+    background: none;
+    color: var(--text-light);
+    border: 1px solid var(--color-primary);
+  }
+  
+  .rbc-toolbar button:hover {
+    background-color: var(--color-primary);
+    color: #000;
+  }
+  
+  .rbc-today {
+    background-color: rgba(0, 209, 255, 0.15);
+  }
+  
+  .rbc-event {
+    background-color: var(--color-accent);
+    border: none;
+    color: #fff;
+  }
+  

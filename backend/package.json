@@ -1,0 +1,42 @@
+{
+  "name": "fafi-cli",
+  "version": "1.0.0",
+  "description": "Family Financial CLI Tool",
+  "main": "cli/shell.js",
+  "bin": {
+    "fafi": "./cli/shell.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node cli/shell.js"
+  },
+  "dependencies": {
+    "asciichart": "^1.5.25",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "chalk": "^5.4.1",
+    "cli-progress": "^3.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "inquirer": "^12.5.2",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^5.0.2",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.1",
+    "openai": "^4.95.1",
+    "twilio": "^4.23.0",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4"
+  }
+}
