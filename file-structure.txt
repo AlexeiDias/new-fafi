@@ -1,0 +1,154 @@
+.
+├── FaFi.git
+│   ├── HEAD
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── info
+│   │   ├── exclude
+│   │   └── refs
+│   ├── objects
+│   │   └── info
+│   │       └── packs
+│   └── packed-refs
+├── backend
+│   ├── README.md
+│   ├── cli
+│   │   ├── addBill.js
+│   │   ├── addTransaction.js
+│   │   ├── auth.js
+│   │   ├── backup.js
+│   │   ├── charts.js
+│   │   ├── cliUtils.js
+│   │   ├── exportSummary.js
+│   │   ├── multiDelete.js
+│   │   ├── restore.js
+│   │   ├── shell.js
+│   │   ├── testHistory.js
+│   │   ├── testRunner.js
+│   │   ├── triggerAlerts.js
+│   │   ├── viewBills.js
+│   │   └── viewByPerson.js
+│   ├── config
+│   │   └── db.js
+│   ├── controllers
+│   │   ├── alertController.js
+│   │   ├── authController.js
+│   │   ├── backupController.js
+│   │   ├── billController.js
+│   │   ├── exportController.js
+│   │   ├── importController.js
+│   │   ├── recurringController.js
+│   │   ├── statsController.js
+│   │   ├── transactionController.js
+│   │   └── userController.js
+│   ├── cron
+│   │   └── alertCron.js
+│   ├── middleware
+│   │   └── upload.js
+│   ├── models
+│   │   ├── Bill.js
+│   │   ├── ChatMessage.js
+│   │   ├── Transaction.js
+│   │   └── User.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   │   ├── aiRoutes.js
+│   │   ├── alertRoutes.js
+│   │   ├── authRoutes.js
+│   │   ├── backupRoutes.js
+│   │   ├── billRoutes.js
+│   │   ├── compareRoutes.js
+│   │   ├── exportRoutes.js
+│   │   ├── importRoutes.js
+│   │   ├── statsRoutes.js
+│   │   ├── suggestionRoutes.js
+│   │   ├── transactionRoutes.js
+│   │   └── userRoutes.js
+│   ├── scripts
+│   │   └── listUsers.js
+│   ├── seed.js
+│   ├── server.js
+│   ├── services
+│   │   └── runRecurringBills.js
+│   ├── uploads
+│   │   └── avatars
+│   │       ├── Alexei-1745347483995.png
+│   │       ├── Alexei-1745348963212.png
+│   │       ├── Alexei-1745349739347.png
+│   │       ├── Alexei-1745354559585.png
+│   │       ├── Alexei-1745354587581.png
+│   │       ├── Tais-1745349763551.png
+│   │       └── Tais-1745351299575.png
+│   └── utils
+│       └── sendAlert.js
+├── file-structure.txt
+├── frontend
+│   └── fafi-ui
+│       ├── README.md
+│       ├── eslint.config.js
+│       ├── file-structure.txt
+│       ├── index.html
+│       ├── package-lock.json
+│       ├── package.json
+│       ├── public
+│       │   ├── css
+│       │   │   └── fullcalendar
+│       │   └── vite.svg
+│       ├── src
+│       │   ├── App.css
+│       │   ├── App.jsx
+│       │   ├── api
+│       │   │   └── axios.js
+│       │   ├── assets
+│       │   │   └── react.svg
+│       │   ├── components
+│       │   │   ├── AddBillForm.jsx
+│       │   │   ├── AddTransactionForm.jsx
+│       │   │   ├── AlertTrigger.jsx
+│       │   │   ├── BillList.jsx
+│       │   │   ├── CalendarView.jsx
+│       │   │   ├── ComparisonChart.jsx
+│       │   │   ├── Dashboard.jsx
+│       │   │   ├── DashboardCard.jsx
+│       │   │   ├── ExportButtons.jsx
+│       │   │   ├── FafiChat.jsx
+│       │   │   ├── ImportExcelForm.jsx
+│       │   │   ├── RunRecurringBillsButton.jsx
+│       │   │   ├── StatSummary.jsx
+│       │   │   ├── SuggestionList.jsx
+│       │   │   ├── TogglePanel.jsx
+│       │   │   ├── TopBar.jsx
+│       │   │   ├── TransactionList.jsx
+│       │   │   ├── UserManager.jsx
+│       │   │   ├── UserSelector.jsx
+│       │   │   └── calendar-theme.css
+│       │   ├── index.css
+│       │   ├── main.jsx
+│       │   ├── pages
+│       │   │   ├── Login.jsx
+│       │   │   └── Register.jsx
+│       │   ├── services
+│       │   │   ├── api.js
+│       │   │   └── billService.js
+│       │   └── styles
+│       │       └── Dashboard.css
+│       └── vite.config.js
+├── package-lock.json
+└── package.json
+
+31 directories, 121 files

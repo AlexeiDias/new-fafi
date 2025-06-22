@@ -1,0 +1,53 @@
+.
+├── README.md
+├── eslint.config.js
+├── file-structure.txt
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── css
+│   │   └── fullcalendar
+│   │       └── core.min.css
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── api
+│   │   └── axios.js
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── AddBillForm.jsx
+│   │   ├── AddTransactionForm.jsx
+│   │   ├── AlertTrigger.jsx
+│   │   ├── BillList.jsx
+│   │   ├── CalendarView.jsx
+│   │   ├── ComparisonChart.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── DashboardCard.jsx
+│   │   ├── ExportButtons.jsx
+│   │   ├── FafiChat.jsx
+│   │   ├── ImportExcelForm.jsx
+│   │   ├── RunRecurringBillsButton.jsx
+│   │   ├── StatSummary.jsx
+│   │   ├── SuggestionList.jsx
+│   │   ├── TogglePanel.jsx
+│   │   ├── TopBar.jsx
+│   │   ├── TransactionList.jsx
+│   │   ├── UserManager.jsx
+│   │   ├── UserSelector.jsx
+│   │   └── calendar-theme.css
+│   ├── index.css
+│   ├── main.jsx
+│   ├── pages
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   ├── services
+│   │   ├── api.js
+│   │   └── billService.js
+│   └── styles
+│       └── Dashboard.css
+└── vite.config.js
+
+11 directories, 40 files
